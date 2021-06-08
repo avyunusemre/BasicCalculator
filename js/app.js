@@ -80,4 +80,5 @@ function sil() {
   secondNumber = "";
   selectedOperator = "";
   screen.value = "";
+  result = "";
 }
