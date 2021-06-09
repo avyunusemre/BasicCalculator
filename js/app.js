@@ -67,8 +67,11 @@ function esittir() {
       result = Number(firstNumber) * Number(secondNumber);
       break;
   }
-
-  screen.value = result.toFixed(2);
+  if (result % 1 != 0) {
+    screen.value = result.toFixed(2);
+  } else {
+    screen.value = result;
+  }
 
   firstNumber = screen.value;
   secondNumber = "";
