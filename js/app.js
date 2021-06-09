@@ -68,7 +68,7 @@ function esittir() {
       break;
   }
 
-  screen.value = result;
+  screen.value = result.toFixed(2);
 
   firstNumber = screen.value;
   secondNumber = "";
